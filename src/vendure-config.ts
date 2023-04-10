@@ -67,10 +67,17 @@ export const config: VendureConfig = {
       {
         name: "test",
         type: "string",
+        ui: { tab: "ProductInfo" },
       },
       {
-        name: "text2",
+        name: "test2",
         type: "string",
+        ui: { tab: "ProductInfo" },
+      },
+      {
+        name: "test3",
+        type: "string",
+        ui: { tab: "ProductInfo" },
       },
     ],
   },
